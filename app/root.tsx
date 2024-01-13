@@ -10,7 +10,7 @@ import {
 } from "@remix-run/react";
 
 import tailwindcss from "~/css/tailwind.css";
-import AppLayout from "./components/layouts/app-layouts";
+import AppLayout from "./components/layouts/app-layout";
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
@@ -26,7 +26,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-background-100 dark:text-text-900">
+      <body className="bg-background-50 dark:text-text-900">
         <AppLayout>
           <Outlet />
         </AppLayout>
