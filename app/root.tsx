@@ -9,13 +9,12 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-
-import tailwindcss from '~/css/tailwind.css';
+import tailwindcss from "~/css/tailwind.css";
 import AppLayout from "./components/layouts/app-layouts";
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
-  {rel:"stylesheet",href:tailwindcss}
+  { rel: "stylesheet", href: tailwindcss },
 ];
 
 export default function App() {
@@ -27,7 +26,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-background-50">
+      <body className="bg-background-100 dark:text-text-900">
         <AppLayout>
           <Outlet />
         </AppLayout>

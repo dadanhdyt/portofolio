@@ -3,7 +3,7 @@ import AppLogo from "../ui/AppLogo";
 
 export default function AppNavigation(){
     return (
-        <nav className="bg-background backdrop-blur-lg bg-white/50 fixed w-full top-0">
+        <nav className="bg-background backdrop-blur-lg bg-white/50 dark:bg-transparent dark:shadow-lg fixed w-full top-0">
             <div className="container">
                 <div className="flex h-16 justify-between items-center">
                     <AppLogo/>
