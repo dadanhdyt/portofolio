@@ -14,17 +14,18 @@ export default function Index() {
       <section id="hiro">
         <div className="container">
           <div className="text-center  h-screen justify-center flex flex-col gap-4 sm:w-4/6 mx-auto">
-            <h1 className="text-6xl">
-              Hi! I'm <span className="font-bold text-primary">Dadan</span>
+            <h1 className="text-4xl sm:text-6xl">
+              Hi! I'm{" "}
+              <span className="font-bold text-secondary-500">Dadan</span>
             </h1>
             <div className="flex gap-3 flex-col">
-              <p className="text-2xl">
+              <p className="text-1xl sm:text-2xl">
                 🧊 I'm helping people like you to be better especially in modern
                 career, web development, software engineering, tech business,
                 and life in general.
               </p>
               <span>
-                Fun coding since 2000 + Professional coding since 2010
+                Fun coding since 2020 + Professional coding since 2022
               </span>
               <div className="flex gap-3 justify-center">
                 <ButtonLink className="flex gap-2">
@@ -56,8 +57,8 @@ export default function Index() {
                   Instagram
                 </ButtonLink>
               </div>
-              <ul className="flex gap-3 mt-5 justify-center">
-                <li>#mahasiswa</li>
+              <ul className="flex flex-col sm:flex-row gap-3  mt-5 justify-center">
+                <li className="font-bold">#prabowogibran</li>
                 <li>#fullstackdev</li>
                 <li>#sofwareengginer</li>
                 <li>#codingentusiast</li>
@@ -70,56 +71,100 @@ export default function Index() {
         <div className="container">
           <div className="text-center py-5 mb-6">
             <div className="font-semibold">Karir</div>
-            <div className="text-3xl font-semibold">My Work <span className="text-secondary-500">Specialty</span></div>
+            <div className="text-3xl font-semibold">
+              My Work <span className="text-secondary-500">Specialty</span>
+            </div>
             <p>
-              Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eum.
+              Lorem, ipsum dolor. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Enim, eum.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="border shadow flex flex-col gap-4 rounded ring-1 px-3 py-4 ring-background-200 bg-background-100">
-              <span className="text-2xl text-primary-500 font-semibold gap-3 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"/></svg>
+              <span className="text-2xl text-primary-600 font-semibold gap-3 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"
+                  />
+                </svg>
                 <span>FOUNDER</span>
               </span>
-              <p className="text-text-950">it natus labore! Possimus, excepturi! Recusandae molestiae laudantium vel officiis aliquam </p>
+              <p className="text-text-950">
+                it natus labore! Possimus, excepturi! Recusandae molestiae
+                laudantium vel officiis aliquam{" "}
+              </p>
             </div>
             <div className="border shadow flex flex-col gap-4 rounded ring-1 px-3 py-4 ring-background-200 bg-background-100">
-              <span className="text-2xl text-primary-500 font-semibold gap-3 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"/></svg>
+              <span className="text-2xl text-primary-600 font-semibold gap-3 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"
+                  />
+                </svg>
                 <span>FOUNDER</span>
               </span>
-              <p className="text-text-950">it natus labore! Possimus, excepturi! Recusandae molestiae laudantium vel officiis aliquam </p>
+              <p className="text-text-950">
+                it natus labore! Possimus, excepturi! Recusandae molestiae
+                laudantium vel officiis aliquam{" "}
+              </p>
             </div>
             <div className="border shadow flex flex-col gap-4 rounded ring-1 px-3 py-4 ring-background-200 bg-background-100">
-              <span className="text-2xl text-primary-500 font-semibold gap-3 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"/></svg>
+              <span className="text-2xl text-primary-600 font-semibold gap-3 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"
+                  />
+                </svg>
                 <span>FOUNDER</span>
               </span>
-              <p className="text-text-950">it natus labore! Possimus, excepturi! Recusandae molestiae laudantium vel officiis aliquam </p>
+              <p className="text-text-950">
+                it natus labore! Possimus, excepturi! Recusandae molestiae
+                laudantium vel officiis aliquam{" "}
+              </p>
             </div>
             <div className="border shadow flex flex-col gap-4 rounded ring-1 px-3 py-4 ring-background-200 bg-background-100">
-              <span className="text-2xl text-primary-500 font-semibold gap-3 flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"/></svg>
+              <span className="text-2xl text-primary-600 font-semibold gap-3 flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"
+                  />
+                </svg>
                 <span>FOUNDER</span>
               </span>
-              <p className="text-text-950">it natus labore! Possimus, excepturi! Recusandae molestiae laudantium vel officiis aliquam </p>
+              <p className="text-text-950">
+                it natus labore! Possimus, excepturi! Recusandae molestiae
+                laudantium vel officiis aliquam{" "}
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div className="container">
-      <div className="bg-primary-400 mt-5 rounded-lg">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi nemo maxime harum temporibus! Alias accusamus est, tempore aperiam optio dicta veritatis autem, temporibus, sunt labore incidunt dolor dolorum omnis?
-        Neque laudantium nesciunt autem officiis, ipsa voluptatibus quod deserunt modi dolor aliquam esse maxime nobis veniam deleniti unde voluptatum eius dolores veritatis totam? Ea cum tenetur sed est sequi. Provident.
-        Tenetur, sit odio assumenda cupiditate nam tempora sapiente, odit ab animi recusandae dicta deleniti? Hic provident corporis reprehenderit praesentium, id repellendus explicabo. Tempora exercitationem nostrum, sint iusto voluptatum recusandae accusantium?
-        Nostrum perferendis ipsa earum quaerat velit quas ea dolor debitis sunt rem! Dolores itaque, ab placeat debitis laborum repudiandae hic corrupti ratione impedit officiis deserunt molestiae dolore obcaecati laboriosam quis!
-        Magnam sunt vel blanditiis inventore aliquam laborum quos sapiente ipsum molestiae incidunt nam, porro, eius distinctio fugit architecto? Laudantium minus reiciendis cum nulla delectus quisquam eaque sunt sit, ab nisi.
-        Voluptatum fuga, illum, iusto temporibus cupiditate at asperiores quisquam dolorum velit provident rem, magnam quia laudantium aut similique distinctio officiis voluptates voluptate dolores explicabo nisi? Minima, quas! Architecto, ut dignissimos.
-        Sunt, consequatur. Nesciunt magnam error dolor natus, repellat vel fugit explicabo. Sequi vel, molestiae quae maiores similique aliquid vero fugit, a tenetur minus aspernatur nesciunt reiciendis, corporis modi. Voluptatibus, qui?
-        In porro dignissimos nisi totam necessitatibus quod modi sed quas ipsa, eaque iste consectetur veniam maiores debitis sit molestiae inventore cum quasi non omnis pariatur velit hic? Natus, ipsum eius!
-        Blanditiis esse voluptates numquam expedita minus voluptatem repellendus quas! Nemo perspiciatis consectetur quidem dignissimos dolorum! Voluptatibus veritatis quisquam enim non doloribus id. Omnis eveniet, vitae deserunt magni sit neque odio.
-        Quibusdam excepturi quos aliquid quia totam nisi, quasi, similique ipsa inventore, sit vel cum modi sunt numquam fugit deserunt nemo nobis eius distinctio impedit expedita? Animi rem facere debitis necessitatibus.
-        </div>
+        <div className="bg-primary-400 mt-12 rounded-lg"></div>
       </div>
     </div>
   );
