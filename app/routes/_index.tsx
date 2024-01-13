@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import ButtonLink from "~/components/ui/ButtonLink";
-
+import fotoKangDadan from "../../public/dadan.jpg"
 export const meta: MetaFunction = () => {
   return [
     { title: "New Remix App" },
@@ -164,7 +164,115 @@ export default function Index() {
         </div>
       </div>
       <div className="container">
-        <div className="bg-primary-400 mt-12 rounded-lg"></div>
+        <div className="sm:p-12 mt-12 rounded-lg">
+          <div className="flex flex-col sm:flex-row gap-5">
+            <div className="">
+              <img className="rounded" src={fotoKangDadan} alt="" />
+            </div>
+            <div className="md:pb-6 md:pr-16">
+            <h2 className="font-heading mb-8 text-3xl font-medium lg:text-3xl">
+              TIMELINE
+            </h2>
+            <div className="flex">
+              <div className="mr-4 flex flex-col items-center">
+                <div>
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-secondary-500">
+                    <svg
+                      viewBox="0 0 24 24"
+                      className="w-6 h-6 text-secondary-500 icon-bold"
+                      astro-icon="tabler:arrow-down"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        className="icon-tabler"
+                      >
+                        <path d="M12 5v14M18 13l-6 6M6 13l6 6" />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <div className="h-full w-px bg-text-500" />
+              </div>
+              <div className="pt-1 pb-8">
+                <p className="mb-2 text-xl font-medium text-text-500">
+                  Frontend Web
+                </p>
+                <p>
+                  All things interface and interaction. Including UI, UX, Figma,
+                  HTML, CSS, JavaScript, TypeScript, and React.
+                </p>
+              </div>
+            </div>
+            <div className="flex">
+              <div className="mr-4 flex flex-col items-center">
+                <div>
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-secondary-500">
+                    <svg
+                      viewBox="0 0 24 24"
+                      className="w-6 h-6 text-secondary-500 icon-bold"
+                      astro-icon="tabler:arrow-down"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        className="icon-tabler"
+                      >
+                        <path d="M12 5v14M18 13l-6 6M6 13l6 6" />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <div className="h-full w-px bg-text-500" />
+              </div>
+              <div className="pt-1 pb-8">
+                <p className="mb-2 text-xl font-medium text-text-500">
+                  Backend Web
+                </p>
+                <p>
+                  All things API and database. Including DBMS, ORM, REST API,
+                  and GraphQL.
+                </p>
+              </div>
+            </div>
+         
+            <div className="flex">
+              <div className="mr-4 flex flex-col items-center">
+                <div>
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-600">
+                    <svg
+                      viewBox="0 0 24 24"
+                      className="w-6 h-6 text-secondary-500 icon-bold"
+                      astro-icon="tabler:check"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="m5 12 5 5L20 7"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div className="pt-1">
+                <p className="mb-2 text-xl font-medium text-text-500">
+                  <span>Insyaalah Super Developer!</span>
+                </p>
+                <p className="text-gray-700" />
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
   );
