@@ -2,24 +2,25 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 // import foto from "../../../public/dadan.jpg"
 
-import foto from '~/images/dadan.png'
+import foto from "~/images/dadan.png";
 const IntroSection = () => {
   return (
     <div className="container relative">
       <div data-pattern="" className="absolute z-1 inset-0"></div>
       <div className="h-full sm:h-screen sm:px-24 py-24 flex sm:flex-row flex-col-reverse sm:gap-10 gap-6 sm:justify-between items-center justify-center">
-       
         <div className="grid  sm:w-8/12 grid-cols-1 place-items-center sm:place-items-start sm:text-left text-center space-y-5 sm:space-y-4">
           <div>
             <h1 className="text-3xl sm:text-4xl">
               Hello Dunia <span>👋</span>
             </h1>
             <h2 className="text-3xl sm:text-5xl text-text-950 font-bold">
-              I'M <span className="text-text-800">DADAN</span><span className="text-primary-500"> HIDAYAT!</span>
+              I'M <span className="text-text-800">DADAN</span>
+              <span className="text-primary-500"> HIDAYAT!</span>
             </h2>
           </div>
           <p className="sm:text-lg">
-            Just a normal person who loves Web Development And Fullstack Lorem ipsum dolor, sit amet consectetu
+            Just a normal person who loves Web Development And Fullstack Lorem
+            ipsum dolor, sit amet consectetu
           </p>
           <div className="sm:flex w-full grid-cols-2 grid gap-3 sm:gap-2">
             <a
@@ -53,7 +54,8 @@ const IntroSection = () => {
           </div>
         </div>
         <div className="">
-          <img  className="w-[200px] rounded-full sm:rounded-md sm:ring-0  sm:ring-offset-0 ring-2 ring-offset-2 sm:w-[300px]"
+          <img
+            className="w-[200px] rounded-full bg-primary-100 sm:ring-2 ring-primary-200 ring-offset-primary-100  sm:ring-offset-2 ring-2 ring-offset-2 sm:w-[300px]"
             src={foto}
             alt=""
           />
