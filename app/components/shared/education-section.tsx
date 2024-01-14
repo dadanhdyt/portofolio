@@ -3,7 +3,7 @@ import LogoMardira from "~/images/mardira.png";
 export default function Education() {
   return (
     <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-      <div className="hover:bg-background-200  ring-background-200 bg-primary-100 hover:ring-primary-200 ring-1 rounded-lg">
+      <div className="hover:bg-background-800  ring-background-200 bg-primary-100 hover:ring-primary-200 ring-1 rounded-lg">
         <div className="p-2 gap-3 flex">
           <img
             className="w-[80px] sm:w-[100px] h-[80px] sm:h-[100px]"
@@ -21,7 +21,7 @@ export default function Education() {
           </div>
         </div>
       </div>
-      <div className="hover:bg-background-200  ring-background-200 bg-primary-100 hover:ring-primary-200 ring-1 rounded-lg">
+      <div className="hover:bg-background-800  ring-background-200 bg-primary-100 hover:ring-primary-200 ring-1 rounded-lg">
         <div className="p-2 gap-3 flex">
           <img
             className="w-[80px] sm:w-[100px] h-[80px] sm:h-[100px]"

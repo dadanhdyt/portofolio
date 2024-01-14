@@ -2,7 +2,7 @@ import LogoLks from "~/images/logo_lks.png";
 export default function SertifikatSection() {
   return (
     <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-      <div className="ring-1 ring-accent-100 dark:bg-accent-50 rounded-lg bg-accent-50 dark:border-t-2 dark:border-t-background-100 dark:ring-0 dark:shadow-lg dark:border-1 ">
+      <div className="ring-1 ring-primary-200 dark:bg-primary-100 rounded-lg bg-primary-100 dark:border-t-2 dark:border-t-primary-200 dark:ring-0 dark:shadow-lg dark:border-1 ">
         <div className="p-2 py-3 gap-3 flex items-center">
           <img
             className="w-[80px] rounded sm:w-[120px] h-[80px] sm:h-[120px]"
@@ -25,7 +25,7 @@ export default function SertifikatSection() {
           </div>
         </div>
       </div>
-      <div className="ring-1 ring-accent-100 dark:bg-accent-50 rounded-lg bg-accent-50 dark:border-t-2 dark:border-t-background-100 dark:ring-0 dark:shadow-lg dark:border-1 ">
+      <div className="ring-1 ring-primary-200 dark:bg-primary-100 rounded-lg bg-primary-100 dark:border-t-2 dark:border-t-primary-200 dark:ring-0 dark:shadow-lg dark:border-1 ">
         <div className="p-2 py-3 gap-3 flex items-center">
           <img
             className="w-[80px] rounded sm:w-[120px] h-[80px] sm:h-[120px]"
