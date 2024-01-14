@@ -14,8 +14,8 @@ const IntroSection = () => {
             <h1 className="text-3xl sm:text-4xl">
               Hello Dunia <span>👋</span>
             </h1>
-            <h2 className="text-3xl sm:text-5xl text-accent-400 font-bold">
-              I'M DADAN HIDAYAT!
+            <h2 className="text-3xl sm:text-5xl text-text-950 font-bold">
+              I'M <span className="text-text-800">DADAN</span><span className="text-primary-500"> HIDAYAT!</span>
             </h2>
           </div>
           <p className="sm:text-lg">
@@ -23,28 +23,28 @@ const IntroSection = () => {
           </p>
           <div className="sm:flex w-full grid-cols-2 grid gap-3 sm:gap-2">
             <a
-              href=""
+              href="https://github.com/dadanhdyt"
               className="flex items-center hover:scale-105 dark:text-text-800 hover:ring-1 transition-all hover:ring-offset-2 bg-[#333] text-text-50 px-4 py-2 sm:py-2 rounded-lg shadow-lg"
             >
               <Icon icon={"mdi:github"} width={20} />
               <span>Github</span>
             </a>
             <a
-              href=""
+              href="https://instagram.com/dadan.hidyt"
               className="flex items-center hover:scale-105 dark:text-text-800 hover:ring-1 transition-all hover:ring-offset-2 bg-[#E1306C] text-text-100 px-4 py-2 sm:py-2 rounded-lg shadow-lg"
             >
               <Icon icon={"mdi:instagram"} width={20} />
               <span>Instagram</span>
             </a>
             <a
-              href=""
+              href="https://linkedin.com/dadanhdyt"
               className="flex items-center hover:scale-105 dark:text-text-800 hover:ring-1 transition-all hover:ring-offset-2 bg-[#0e76a8] text-text-100 px-4 py-2 sm:py-2 rounded-lg shadow-lg"
             >
               <Icon icon={"mdi:linkedin"} width={20} />
               <span>Linkedin</span>
             </a>
             <a
-              href=""
+              href="javascript:alert('work!')"
               className="flex items-center hover:scale-105 dark:text-text-800 hover:ring-1 transition-all hover:ring-offset-2 bg-[#0088cc] text-text-100 px-4 py-2 sm:py-2 rounded-lg shadow-lg"
             >
               <Icon icon={"mdi:telegram"} width={20} />
