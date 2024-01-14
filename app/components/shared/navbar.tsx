@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import NavbarLink from "../ui/nav-link";
 import { useLocation } from "@remix-run/react";
+import AppLogo from "./app-logo";
 const Navbar = () => {
   var [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useLocation();
@@ -20,11 +21,7 @@ const Navbar = () => {
             <Divide size={25} toggled={openMenu} onToggle={OpenMenu} />
           </div>
           <div className="block">
-            <span className="text-2xl font-bold text-secondary-500">
-              <span>
-                <span className="text-primary-500">Dadan</span>DEV_
-              </span>
-            </span>
+            <AppLogo/>
           </div>
           <ul
             className={`fixed sm:relative sm:bg-transparent sm:opacity-100 sm:h-auto sm:top-0 sm:py-0 sm:border-none sm:w-auto sm:flex-row top-14 bg-background-50 left-0 w-full px-2 flex flex-col  gap-1 py-4 border-t opacity-0 transition-opacity ${
