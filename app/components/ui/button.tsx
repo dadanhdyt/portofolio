@@ -1,15 +1,16 @@
 import { ButtonHTMLAttributes, InputHTMLAttributes, forwardRef } from "react";
 
-const button = forwardRef<
+const Button = forwardRef<
   HTMLButtonElement,
   ButtonHTMLAttributes<HTMLButtonElement>
 >(({ children, className, ...props }, ref) => {
   return (
-    <button className={className} {...props}>
+    <button ref={ref} className={`bg-red-500 p-2 ${className}`} {...props}>
       {children}
     </button>
   );
 });
 
-button.displayName = "Button";
-export default button;
+Button.displayName = "Button";
+
+export default Button;

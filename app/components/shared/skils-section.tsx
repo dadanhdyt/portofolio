@@ -4,7 +4,7 @@ import SkilItem from "../ui/skil-item";
 export default function SkilsSection() {
   return (
     <div className="">
-      <ul className="grid grid-cols-3 sm:grid-cols-5 gap-2">
+      <ul className="grid grid-cols-3 sm:grid-cols-5 gap-4">
         <SkilItem>
           <Icon width={60} icon="skill-icons:html" />
           <span>HTML</span>
