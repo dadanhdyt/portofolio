@@ -1,23 +1,23 @@
-import { Rotate as Hamburger, Rotate } from "hamburger-react";
+import { Divide, Divide as Hamburger } from "hamburger-react";
 import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import NavbarLink from "../ui/nav-link";
 import { useLocation, useNavigation } from "@remix-run/react";
 const Navbar = () => {
   var [openMenu, setOpenMenu] = useState(false);
-  const {pathname} = useLocation();
-    useEffect(()=>{
-        setOpenMenu(false);
-    },[pathname])
+  const { pathname } = useLocation();
+  useEffect(() => {
+    setOpenMenu(false);
+  }, [pathname]);
   function OpenMenu() {
     setOpenMenu(!openMenu);
   }
   return (
-    <nav className="bg-white/20 backdrop-blur-lg  fixed w-full">
+    <nav className="bg-white/20 backdrop-blur-lg z-10  fixed w-full">
       <div className="container">
         <div className="flex h-14 items-center justify-between">
           <div className="bg-background-50 sm:hidden shadow rounded-full">
-            <Rotate onToggle={OpenMenu} />
+            <Divide size={25} toggled={openMenu} onToggle={OpenMenu} />
           </div>
           <div className="block">
             <span className="text-2xl font-bold text-secondary-500">

@@ -11,6 +11,7 @@ import {
 
 import tailwindcss from "~/css/tailwind.css";
 import AppLayout from "./components/layouts/app-layout";
+import ProgressBar from "./components/ui/progress-bar";
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
@@ -26,8 +27,9 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-background-50 dark:text-text-900">
+      <body className="bg-background-50 dark:text-text-950">
         <AppLayout>
+          <ProgressBar></ProgressBar>
           <Outlet />
         </AppLayout>
         <ScrollRestoration />
