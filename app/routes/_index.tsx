@@ -1,5 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
+import CtaSection from "~/components/shared/cta-section";
 import Education from "~/components/shared/education-section";
+import Footer from "~/components/shared/footer";
 import IntroSection from "~/components/shared/intro-section";
 import SertifikatSection from "~/components/shared/sertifikat-section";
 import SkilsSection from "~/components/shared/skils-section";
@@ -19,7 +21,9 @@ export default function Index() {
         <div className="container mb-10">
           <span className="text-text-950 mb-5 block text-2xl font-bold">
             SKILS
-            <p className="text-sm font-thin">Skils yang di kuasai dan di pelajari.</p>
+            <p className="text-sm font-thin">
+              Skils yang di kuasai dan di pelajari.
+            </p>
           </span>
           <SkilsSection />
         </div>
@@ -29,7 +33,9 @@ export default function Index() {
         <div className="container mb-10">
           <span className="text-text-950 mb-3 block text-2xl font-bold">
             Pendidikan
-            <p className="text-sm font-thin">Pendidikan yang telah dan sedang di duduki.</p>
+            <p className="text-sm font-thin">
+              Pendidikan yang telah dan sedang di duduki.
+            </p>
           </span>
           <Education />
         </div>
@@ -39,11 +45,20 @@ export default function Index() {
         <div className="container mb-10">
           <span className="text-text-950 mb-3 block text-2xl font-bold">
             Sertifikat
-            <p className="text-sm font-thin">Sertifikat yang pernah di dapatkan baik perlombaan ataupun kegiatan.</p>
+            <p className="text-sm font-thin">
+              Sertifikat yang pernah di dapatkan baik perlombaan ataupun
+              kegiatan.
+            </p>
           </span>
           <SertifikatSection />
         </div>
       </div>
+      <div className="mt-3">
+        <div className="container">
+        <CtaSection/>
+        </div>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
