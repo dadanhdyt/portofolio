@@ -2,7 +2,7 @@ import { Divide, Divide as Hamburger } from "hamburger-react";
 import { Icon } from "@iconify/react";
 import { useEffect, useState } from "react";
 import NavbarLink from "../ui/nav-link";
-import { useLocation, useNavigation } from "@remix-run/react";
+import { useLocation } from "@remix-run/react";
 const Navbar = () => {
   var [openMenu, setOpenMenu] = useState(false);
   const { pathname } = useLocation();

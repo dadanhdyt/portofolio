@@ -10,7 +10,7 @@ export default function Education() {
             src={logoIfsu}
             alt=""
           />
-          <div className="flex flex-col items-start justify-center">
+          <div className="flex flex-col cursor-pointer items-start justify-center">
             <span className="text-1xl sm:text-xl text-text-900 font-bold">
               REKAYASA PERANGKAT LUNAK
             </span>
@@ -28,7 +28,7 @@ export default function Education() {
             src={LogoMardira}
             alt=""
           />
-          <div className="flex flex-col items-start justify-center">
+          <div className="flex flex-col cursor-pointer items-start justify-center">
             <span className="text-1xl sm:text-xl text-text-900 font-bold">
               TEKNIK INFORMATIKA
             </span>
