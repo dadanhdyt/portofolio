@@ -1,11 +1,15 @@
 import type { Config } from 'tailwindcss'
 
 export default {
+  darkMode : 'class',
   content: ['./app/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    
     container : {
       center : true,
       padding : {
+        sm:'4rem',
+        md : '5rem',
         DEFAULT : '1rem'
       }
     },
